@@ -1,0 +1,68 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: hsl(0, 0%, 100%);
+}
+.container {
+    width: 380px;
+    height: 600px;
+    background-color: hsl(0, 0%, 12%);
+    margin: 100px auto 0;
+    border-radius: 15px;
+}
+header {
+    height: 180px;
+    padding: 30px 0 0;
+    text-align: center;
+}
+h1 {
+    font-size: 1.4855rem;
+    font-weight: 400;
+}
+.img-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.name {
+    margin-top: 10px;
+}
+.name p {
+    font-size: 0.875rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+main {
+    text-align: center;
+    font-size: 0.875rem;
+    height: 350px;
+}
+main div:nth-child(1) {
+    margin-bottom: 25px;
+}
+.profile {
+    background-color: hsl(0, 0%, 20%);
+    margin: 15px auto;
+    width: 80%;
+    height: 45px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.profile:hover {
+    background-color: hsl(0, 3%, 7%);
+    transform: scale(1.03);
+}
+.profile a {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
